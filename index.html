@@ -1,0 +1,25 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>Подяка за донат</title>
+<link rel="icon" type="image/x-icon" href="/images/cat.ico">
+<style>
+body {
+  background-color: #4c4835;
+};
+</style>
+</head>
+<body>
+<div style="margin-left:10%; margin-right:10%">
+<div style="font-weight: normal;font-size: 30px; font-family:'Serif'; text-align='center'; margin-left:40%; margin-bottom:1%; color: #ffffff;"> 
+ <span>Подяка за донат ฅ^•ﻌ•^ฅ</span>
+ </div>
+<div id="banner-images"> </div>
+<span style="font-weight: normal;font-size: 30px;font-family:'Serif';margin-left:20%;margin-top:3%;color: #ffffff;">Щира подяка за вашу підтримку Збройних Сил України!</span>
+<span style="font-weight: normal;font-size: 30px;font-family:'Serif';margin-left:20%;color: #ffffff;">Героям Слава!</span>
+</div>
+<script> 
+let images = ['1.jpg', '2.jpg', '3.jpg','4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpeg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg'];
+let i = Math.floor(Math.random() * images.length);
+document.getElementById("banner-images").innerHTML = '<img src="images/' + images[i] + '" style="width:35%;margin-top: 1%;margin-left: 40%;margin-right: 40%; border: 20px solid #ffffff;">'
+</script>
+</body>
